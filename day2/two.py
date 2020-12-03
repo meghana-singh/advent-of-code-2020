@@ -11,7 +11,7 @@ with open('input.csv') as f:
         pwd_policy[letter] = False
         if indexes:
             if (l in indexes) ^ (u in indexes):
-                    pwd_policy[letter] = True
-                    count = count + 1
+                pwd_policy[letter] = True
+                count = count + 1
     print(pwd_policy)
     print(count)
